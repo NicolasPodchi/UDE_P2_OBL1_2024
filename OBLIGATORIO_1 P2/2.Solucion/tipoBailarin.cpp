@@ -1,1 +1,2 @@
 //hola
+#include "tipoBailarin.h"

@@ -27,3 +27,44 @@
 
 1726263225 source:c:\ude\programacion 2\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\tipobailarin.cpp
 
+1726264179 source:c:\users\felip\onedrive\escritorio\proyectos codeblock\obligatorio 2\ude_p2_obl1_2024\obligatorio_1 p2\1.auxiliares\boolean.cpp
+	<stdio.h>
+	"boolean.h"
+
+1726264179 c:\users\felip\onedrive\escritorio\proyectos codeblock\obligatorio 2\ude_p2_obl1_2024\obligatorio_1 p2\1.auxiliares\boolean.h
+
+1726264179 source:c:\users\felip\onedrive\escritorio\proyectos codeblock\obligatorio 2\ude_p2_obl1_2024\obligatorio_1 p2\1.auxiliares\date.cpp
+	<iostream>
+	"date.h"
+
+1726264179 c:\users\felip\onedrive\escritorio\proyectos codeblock\obligatorio 2\ude_p2_obl1_2024\obligatorio_1 p2\1.auxiliares\date.h
+	"boolean.h"
+
+1726264179 source:c:\users\felip\onedrive\escritorio\proyectos codeblock\obligatorio 2\ude_p2_obl1_2024\obligatorio_1 p2\1.auxiliares\strings.cpp
+	"strings.h"
+	<stdio.h>
+
+1726264179 c:\users\felip\onedrive\escritorio\proyectos codeblock\obligatorio 2\ude_p2_obl1_2024\obligatorio_1 p2\1.auxiliares\strings.h
+	"boolean.h"
+
+1726266199 source:c:\users\felip\onedrive\escritorio\proyectos codeblock\obligatorio 2\ude_p2_obl1_2024\obligatorio_1 p2\1.auxiliares\time.cpp
+	<stdio.h>
+	"time.h"
+	"boolean.h"
+
+1726266199 c:\users\felip\onedrive\escritorio\proyectos codeblock\obligatorio 2\ude_p2_obl1_2024\obligatorio_1 p2\1.auxiliares\time.h
+	"boolean.h"
+
+1726266125 source:c:\users\felip\onedrive\escritorio\proyectos codeblock\obligatorio 2\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\muestra.cpp
+
+1726266125 source:c:\users\felip\onedrive\escritorio\proyectos codeblock\obligatorio 2\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\paises.cpp
+
+1726266125 source:c:\users\felip\onedrive\escritorio\proyectos codeblock\obligatorio 2\ude_p2_obl1_2024\obligatorio_1 p2\main.cpp
+	<iostream>
+	"1.Auxiliares/boolean.h"
+
+1726266419 source:c:\users\felip\onedrive\escritorio\proyectos codeblock\obligatorio 2\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\tipobailarin.cpp
+	"tipoBailarin.h"
+
+1726266125 c:\users\felip\onedrive\escritorio\proyectos codeblock\obligatorio 2\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\tipobailarin.h
+

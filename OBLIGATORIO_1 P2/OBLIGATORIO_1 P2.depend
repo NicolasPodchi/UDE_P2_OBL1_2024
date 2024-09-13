@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1726252273 source:c:\ude\programacion 2\ude_p2_obl1_2024\obligatorio_1 p2\1.auxiliares\boolean.cpp
+	<stdio.h>
+	"boolean.h"
+
+1724451906 c:\ude\programacion 2\ude_p2_obl1_2024\obligatorio_1 p2\1.auxiliares\boolean.h
+
+1726097685 source:c:\ude\programacion 2\ude_p2_obl1_2024\obligatorio_1 p2\1.auxiliares\date.cpp
+	<iostream>
+	"date.h"
+
+1725492462 c:\ude\programacion 2\ude_p2_obl1_2024\obligatorio_1 p2\1.auxiliares\date.h
+	"boolean.h"
+
+1726261757 source:c:\ude\programacion 2\ude_p2_obl1_2024\obligatorio_1 p2\1.auxiliares\strings.cpp
+	"strings.h"
+	<stdio.h>
+
+1726262960 c:\ude\programacion 2\ude_p2_obl1_2024\obligatorio_1 p2\1.auxiliares\strings.h
+	"boolean.h"
+
+1726263225 source:c:\ude\programacion 2\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\bailarin.cpp
+
+1726263225 source:c:\ude\programacion 2\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\muestra.cpp
+
+1726263225 source:c:\ude\programacion 2\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\paises.cpp
+
+1726263225 source:c:\ude\programacion 2\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\tipobailarin.cpp
+

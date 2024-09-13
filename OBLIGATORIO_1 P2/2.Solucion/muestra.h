@@ -1,5 +1,8 @@
 #ifndef MUESTRA_H_INCLUDED
 #define MUESTRA_H_INCLUDED
+
+#include "bailarin.h"
+
 const int TAM = 50;
 typedef struct
 {
@@ -7,5 +10,28 @@ typedef struct
     int tope;
 } muestra;
 
+
+void inicializar (muestra &lista);
+
+boolean existeBailarin (muestra lista, long int ci);
+
+boolean EstaVacio (muestra comunal);
+
+boolean EstaLleno (muestra comunal);
+
+time horaUltimoBailarin (muestra comunal);
+
+void nuevoBailarin (muestra &lista, bailarin b);
+
+void eliminarBailarin (muestra &lista, long int ci);
+
+//BAILARIN INFANTIL
+void sumaUnPremio (muestra &lista, long int ci);
+
+void imprimirLista (muestra lista);
+
+void imprimirBailarin (muestra lista, long int ci);
+
+void cantidadTipoBailarin(muestra lista, int &infantil, int &juvenil, int &adulto);
 
 #endif // MUESTRA_H_INCLUDED

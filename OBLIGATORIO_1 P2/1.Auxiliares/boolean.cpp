@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "boolean.h"
 
-void boolScan(boolean &boolParam)
+void boolScan(boolean &boolParam) 
 {
     int num;
     scanf("%d", &num);

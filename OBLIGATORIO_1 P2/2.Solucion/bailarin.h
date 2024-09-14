@@ -1,6 +1,7 @@
 #ifndef BAILARIN_H_INCLUDED
 #define BAILARIN_H_INCLUDED
 
+#include <iostream>
 #include"../1.Auxiliares/time.h"
 #include "../1.Auxiliares/strings.h"
 #include "../1.Auxiliares/date.h"
@@ -24,5 +25,10 @@ typedef struct
     } datos;
 
 } bailarin;
+
+//CARGAR BAILARIN
+//MOSTRAR BAILARIN
+
+//GET
 
 #endif // BAILARIN_H_INCLUDED

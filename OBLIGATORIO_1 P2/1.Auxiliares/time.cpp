@@ -35,7 +35,19 @@ void cargarhora (time &t)
     }
     while (chequeomin(t)==FALSE);
 }
+
 void printhora (time t)
 {
     printf("HORA: %d : %d", t.horas,t.minutos);
+}
+
+//GET
+int getHoras(time t)
+{
+    return t.horas;
+}
+
+int getMinutos(time t)
+{
+    return t.minutos;
 }

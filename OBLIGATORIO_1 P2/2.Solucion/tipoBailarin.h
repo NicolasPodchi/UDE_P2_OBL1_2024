@@ -9,4 +9,7 @@ typedef enum
 
 } tipoBailarin;
 
+//CARGAR BAILARIN
+//MOSTRAR BAILARIN
+
 #endif // TIPOBAILARIN_H_INCLUDED

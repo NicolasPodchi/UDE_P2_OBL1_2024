@@ -15,14 +15,15 @@ void inicializar (muestra &lista);
 
 boolean existeBailarin (muestra lista, long int ci);
 
-boolean EstaVacio (muestra comunal);
+boolean estaVacio (muestra comunal);
 
-boolean EstaLleno (muestra comunal);
+boolean estaLleno (muestra comunal);
 
 time horaUltimoBailarin (muestra comunal);
 
-void nuevoBailarin (muestra &lista, bailarin b);
+void nuevoBailarin (muestra &lista);
 
+// PRECONDICION: Debe existir bailarin para la ci
 void eliminarBailarin (muestra &lista, long int ci);
 
 //BAILARIN INFANTIL

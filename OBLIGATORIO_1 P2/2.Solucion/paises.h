@@ -11,4 +11,7 @@ typedef enum
 
 } paises;
 
+//CARGAR BAILARIN
+//MOSTRAR BAILARIN
+
 #endif // PAISES_H_INCLUDED

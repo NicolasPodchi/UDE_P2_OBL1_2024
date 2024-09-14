@@ -36,8 +36,12 @@
 		<Unit filename="1.Auxiliares/boolean.h" />
 		<Unit filename="1.Auxiliares/date.cpp" />
 		<Unit filename="1.Auxiliares/date.h" />
+		<Unit filename="1.Auxiliares/menu.cpp" />
+		<Unit filename="1.Auxiliares/menu.h" />
 		<Unit filename="1.Auxiliares/strings.cpp" />
 		<Unit filename="1.Auxiliares/strings.h" />
+		<Unit filename="1.Auxiliares/time.cpp" />
+		<Unit filename="1.Auxiliares/time.h" />
 		<Unit filename="2.Solucion/bailarin.cpp" />
 		<Unit filename="2.Solucion/bailarin.h" />
 		<Unit filename="2.Solucion/muestra.cpp" />

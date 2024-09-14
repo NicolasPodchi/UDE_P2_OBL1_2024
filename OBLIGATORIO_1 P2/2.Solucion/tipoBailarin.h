@@ -9,7 +9,10 @@ typedef enum
 
 } tipoBailarin;
 
-//CARGAR BAILARIN
-//MOSTRAR BAILARIN
+//CARGAR TIPO BAILARIN
+void cargarTipoBailarin(tipoBailarin &tipoBailarinScan);
+
+//MOSTRAR TIPO BAILARIN
+void mostrarTipoBailarin(tipoBailarin tipoBailarinParam);
 
 #endif // TIPOBAILARIN_H_INCLUDED

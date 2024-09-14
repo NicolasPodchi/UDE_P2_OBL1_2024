@@ -11,7 +11,10 @@ typedef enum
 
 } paises;
 
-//CARGAR BAILARIN
-//MOSTRAR BAILARIN
+//CARGAR PAIS
+void cargarPais(paises p);
+
+//MOSTRAR PAIS
+void mostrarPais(paises p);
 
 #endif // PAISES_H_INCLUDED

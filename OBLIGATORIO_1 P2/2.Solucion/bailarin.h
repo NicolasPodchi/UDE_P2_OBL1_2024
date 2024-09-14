@@ -27,6 +27,8 @@ typedef struct
 } bailarin;
 
 //CARGAR BAILARIN
+void cargarbailarin(bailarin &b);
+
 //MOSTRAR BAILARIN
 
 //GET

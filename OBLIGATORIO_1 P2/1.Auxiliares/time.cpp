@@ -51,3 +51,17 @@ int getMinutos(time t)
 {
     return t.minutos;
 }
+
+boolean compararhora(time b, time c)
+{
+    boolean mayor=FALSE;
+    if((b.horas)>(c.horas))
+        mayor=TRUE;
+    else if ((b.horas)<(c.horas))
+        mayor= FALSE;
+    else if((b.minutos)>(c.minutos))
+        mayor=TRUE;
+    else if ((b.minutos)<  (c.minutos))
+        mayor=FALSE;
+    return mayor;
+}

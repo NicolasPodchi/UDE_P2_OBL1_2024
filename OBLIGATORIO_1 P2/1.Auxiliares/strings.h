@@ -1,6 +1,8 @@
 #ifndef STRINGS_H_INCLUDED
 #define STRINGS_H_INCLUDED
+
 #include "boolean.h"
+
 const int MAX=80;
 typedef char strings[MAX];
 

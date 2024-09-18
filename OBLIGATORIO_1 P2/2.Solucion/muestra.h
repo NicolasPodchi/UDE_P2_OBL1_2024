@@ -11,7 +11,7 @@ typedef struct
 } muestra;
 
 
-void inicializar (muestra &lista);
+void inicializarMuestra(muestra &muestraParam)
 
 boolean existeBailarin (muestra lista, long int ci);
 
@@ -35,4 +35,7 @@ void imprimirBailarin (muestra lista, long int ci);
 
 void cantidadTipoBailarin(muestra lista, int &infantil, int &juvenil, int &adulto);
 
+void cantidadTipoBailarin(muestra lista, int &infantil, int &juvenil, int &adulto);
+
+int cantidadTango(muestra lista, strings estilo);
 #endif // MUESTRA_H_INCLUDED

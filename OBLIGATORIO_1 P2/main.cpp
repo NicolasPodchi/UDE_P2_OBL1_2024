@@ -71,6 +71,7 @@ void procesarConsulta(muestra muestraComunal, int opcionConsultas)
 
 int main()
 {
+    bailarin b;
     int opcion;
     int opcionConsultas;
     muestra muestraComunal;
@@ -88,6 +89,8 @@ int main()
         case 1:
             // Registrar ingreso de un bailarín
 //            nuevoBailarin(muestraComunal);
+
+            cargarBailarin(b);
             break;
         case 2:
             // Registrar salida de un bailarín

@@ -1,5 +1,6 @@
 #ifndef HORA_H_INCLUDED
 #define HORA_H_INCLUDED
+
 #include "boolean.h"
 
 typedef struct
@@ -16,6 +17,8 @@ boolean chequeomin (time t);
 //GET
 int getHoras(time t);
 int getMinutos(time t);
+
+boolean compararhora(time b, time c);
 
 
 #endif // HORA_H_INCLUDED

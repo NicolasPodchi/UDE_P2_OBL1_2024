@@ -46,6 +46,51 @@ void listarBailarin (bailarin b)
 
 }
 
+long int darCedula(bailarin b)
+{
+    return b.cedula;
+}
+
+void darNombre(bailarin b, strings &nombre)
+{
+    strcop(nombre,b.nombre);
+}
+
+void darApellido(bailarin b, strings &apellido)
+{
+    strcop(apellido,b.apellido);
+}
+
+date darFechaNacimiento(bailarin b)
+{
+    return b.fechaNacimiento;
+}
+
+time darHoraIngreso(bailarin b)
+{
+    return b.horaIngreso
+}
+
+tipoBailarin darTipoBailarin(bailarin b)
+{
+    return b.discriminante;
+}
+
+int darCantidadPremiios(bailarin b)
+{
+    return b.datos.cantidadPremios;
+}
+
+void darEstiloTango(bailarin b, strings &estilo)
+{
+    strcop(estilo, b.datos.estiloTango);
+}
+
+paises darPais(bailarin b)
+{
+    return b.datos.nacionalidad;
+}
+
 
 
 

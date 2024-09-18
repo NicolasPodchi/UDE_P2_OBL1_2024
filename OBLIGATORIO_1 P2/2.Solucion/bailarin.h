@@ -27,12 +27,30 @@ typedef struct
 } bailarin;
 
 //CARGAR BAILARIN
+void cargarBailarin(bailarin &b);
+void listarBailarin (bailarin b);
 void cargarbailarin(bailarin &b);
+
 void listarBailarin (bailarin b);
 
+//SELECTORAS
+long int darCedula(bailarin b);
 
-//MOSTRAR BAILARIN
+void darNombre(bailarin b, strings &nombre);
 
-//GET
+void darApellido(bailarin b, strings &apellido);
+
+date darFechaNacimiento(bailarin b);
+
+time darHoraIngreso(bailarin b);
+
+tipoBailarin darTipoBailarin(bailarin b);
+
+int darCantidadPremiios(bailarin b);
+
+void darEstiloTango(bailarin b, strings &estilo);
+
+paises darPais(bailarin b);
+
 
 #endif // BAILARIN_H_INCLUDED

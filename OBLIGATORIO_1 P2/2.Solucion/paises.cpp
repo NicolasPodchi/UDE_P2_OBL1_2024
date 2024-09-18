@@ -1,4 +1,5 @@
 //hola
+#include <stdio.h>
 #include "paises.h"
 
 void cargarPais(paises p)
@@ -22,14 +23,14 @@ void cargarPais(paises p)
         case 4: p= PARAGUAY;
         break;
         case 5: p= OTRO;
-        default;
+        default: ;
         //VALIDACION
     }
 }
 
 void mostrarPais(paises p)
 {
-    switch(P)
+    switch(p)
     {
         case URUGUAY: printf("URUGUAY");
         break;
@@ -40,7 +41,7 @@ void mostrarPais(paises p)
         case PARAGUAY: printf("PARAGUAY");
         break;
         case OTRO: printf("OTRO");
-        default;
+        default:;
         //VALIDACION
     }
 }

@@ -28,6 +28,8 @@ typedef struct
 
 //CARGAR BAILARIN
 void cargarbailarin(bailarin &b);
+void listarBailarin (bailarin b);
+
 
 //MOSTRAR BAILARIN
 

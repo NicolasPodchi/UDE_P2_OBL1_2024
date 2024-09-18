@@ -1,8 +1,9 @@
 //hola
 #include "tipoBailarin.h"
+#include <stdio.h>
 
 //CARGAR BAILARIN
-void cargarTipoBailarin(tipoBailarin &tipoBailarinScan)
+void cargarTipoBailarin(tipoBailarin &b)
 {
     printf("Ingrese el tipo de bailarin: ");
     printf("\n 1 - Infantil ");
@@ -12,21 +13,21 @@ void cargarTipoBailarin(tipoBailarin &tipoBailarinScan)
     int num;
     scanf("%d", &num);
 
-    swtich(num)
+    switch(num)
     {
     case 1:
-        tipoBailarin = INFANTIL;
+            b=INFANTIL ;
         break;
 
     case 2:
-        tipoBailarin = JUVENIL;
+        b = JUVENIL;
         break;
 
     case 3:
-        tipoBailarin = ADULTO;
+        b = ADULTO;
         break;
 
-    default:
+    default:printf("Valor erroneo, ingrese devuelta.");
         //VALIDAR ELEMENTO
         break;
     }

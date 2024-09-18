@@ -51,26 +51,32 @@
 1726264179 c:\users\felip\onedrive\escritorio\proyectos codeblock\obligatorio 2\ude_p2_obl1_2024\obligatorio_1 p2\1.auxiliares\strings.h
 	"boolean.h"
 
-1726266199 source:c:\users\felip\onedrive\escritorio\proyectos codeblock\obligatorio 2\ude_p2_obl1_2024\obligatorio_1 p2\1.auxiliares\time.cpp
+1726695465 source:c:\users\felip\onedrive\escritorio\proyectos codeblock\obligatorio 2\ude_p2_obl1_2024\obligatorio_1 p2\1.auxiliares\time.cpp
 	<stdio.h>
 	"time.h"
 	"boolean.h"
 
-1726266199 c:\users\felip\onedrive\escritorio\proyectos codeblock\obligatorio 2\ude_p2_obl1_2024\obligatorio_1 p2\1.auxiliares\time.h
+1726272670 c:\users\felip\onedrive\escritorio\proyectos codeblock\obligatorio 2\ude_p2_obl1_2024\obligatorio_1 p2\1.auxiliares\time.h
 	"boolean.h"
 
-1726266125 source:c:\users\felip\onedrive\escritorio\proyectos codeblock\obligatorio 2\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\muestra.cpp
+1726696189 source:c:\users\felip\onedrive\escritorio\proyectos codeblock\obligatorio 2\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\muestra.cpp
+	"muestra.h"
 
-1726266125 source:c:\users\felip\onedrive\escritorio\proyectos codeblock\obligatorio 2\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\paises.cpp
+1726416680 source:c:\users\felip\onedrive\escritorio\proyectos codeblock\obligatorio 2\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\paises.cpp
+	<stdio.h>
+	"paises.h"
 
-1726266125 source:c:\users\felip\onedrive\escritorio\proyectos codeblock\obligatorio 2\ude_p2_obl1_2024\obligatorio_1 p2\main.cpp
+1726272670 source:c:\users\felip\onedrive\escritorio\proyectos codeblock\obligatorio 2\ude_p2_obl1_2024\obligatorio_1 p2\main.cpp
 	<iostream>
-	"1.Auxiliares/boolean.h"
+	<cstdlib>
+	"1.Auxiliares/menu.h"
+	"2.Solucion/muestra.h"
 
-1726266419 source:c:\users\felip\onedrive\escritorio\proyectos codeblock\obligatorio 2\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\tipobailarin.cpp
+1726674768 source:c:\users\felip\onedrive\escritorio\proyectos codeblock\obligatorio 2\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\tipobailarin.cpp
 	"tipoBailarin.h"
+	<stdio.h>
 
-1726266125 c:\users\felip\onedrive\escritorio\proyectos codeblock\obligatorio 2\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\tipobailarin.h
+1726416079 c:\users\felip\onedrive\escritorio\proyectos codeblock\obligatorio 2\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\tipobailarin.h
 
 1726272319 source:c:\ude\programacion 2\ude_p2_obl1_2024\obligatorio_1 p2\1.auxiliares\time.cpp
 	<stdio.h>
@@ -106,4 +112,26 @@
 	<cstdlib>
 	"1.Auxiliares/menu.h"
 	"2.Solucion/muestra.h"
+
+1726695818 source:c:\users\felip\onedrive\escritorio\proyectos codeblock\obligatorio 2\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\bailarin.cpp
+	"bailarin.h"
+
+1726695802 c:\users\felip\onedrive\escritorio\proyectos codeblock\obligatorio 2\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\bailarin.h
+	<iostream>
+	"../1.Auxiliares/time.h"
+	"../1.Auxiliares/strings.h"
+	"../1.Auxiliares/date.h"
+	"tipoBailarin.h"
+	"paises.h"
+
+1726416079 c:\users\felip\onedrive\escritorio\proyectos codeblock\obligatorio 2\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\paises.h
+
+1726272670 c:\users\felip\onedrive\escritorio\proyectos codeblock\obligatorio 2\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\muestra.h
+	"bailarin.h"
+
+1726272670 c:\users\felip\onedrive\escritorio\proyectos codeblock\obligatorio 2\ude_p2_obl1_2024\obligatorio_1 p2\1.auxiliares\menu.h
+
+1726272670 source:c:\users\felip\onedrive\escritorio\proyectos codeblock\obligatorio 2\ude_p2_obl1_2024\obligatorio_1 p2\1.auxiliares\menu.cpp
+	<iostream>
+	"menu.h"
 

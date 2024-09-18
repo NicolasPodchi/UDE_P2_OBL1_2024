@@ -22,7 +22,7 @@ void procesarConsulta(muestra muestraComunal, int opcionConsultas)
         {
         case 1:
             //Listado básico de bailarines ingresados, ordenado por hora de llegada
-            imprimirLista(muestraComunal);
+            //imprimirLista(muestraComunal);
             break;
         case 2:
             //Listado detallado de un bailarín, dada su cédula

@@ -38,7 +38,7 @@ void cargarhora (time &t)
 
 void printhora (time t)
 {
-    printf("HORA: %d : %d", t.horas,t.minutos);
+    printf("HORA DE INGRESO: %d : %d", t.horas,t.minutos);
 }
 
 //GET

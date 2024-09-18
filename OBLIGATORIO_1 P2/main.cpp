@@ -27,21 +27,21 @@ void procesarConsulta(muestra muestraComunal, int opcionConsultas)
         case 2:
             //Listado detallado de un bailarín, dada su cédula
 
-            printf("Ingerse la cedula del bailarin a consultar: ");
-            scanf("%ld", &ci);
+//            printf("Ingerse la cedula del bailarin a consultar: ");
+//            scanf("%ld", &ci);
 
-            while(existeBailarin(muestraComunal, ci) == FALSE)
-            {
-                system("cls");
-                printf("NO EXISTE BAILARIN PARA LA CEDULA INGRESADA. INGRESE NUEVAMENTE: ");
-                scanf("%ld", &ci);
-            }
-
-            imprimirBailarin(muestraComunal, ci);
+//            while(existeBailarin(muestraComunal, ci) == FALSE)
+//            {
+//                system("cls");
+//                printf("NO EXISTE BAILARIN PARA LA CEDULA INGRESADA. INGRESE NUEVAMENTE: ");
+//                scanf("%ld", &ci);
+//            }
+//
+//            imprimirBailarin(muestraComunal, ci);
             break;
         case 3:
             //Cantidad de bailarines de cada tipo ingresados
-            cantidadTipoBailarin(muestraComunal, infantil, juvenil, adulto);
+//            cantidadTipoBailarin(muestraComunal, infantil, juvenil, adulto);
             //mostrar resultados
             break;
         case 4:
@@ -87,37 +87,37 @@ int main()
         {
         case 1:
             // Registrar ingreso de un bailarín
-            nuevoBailarin(muestraComunal);
+//            nuevoBailarin(muestraComunal);
             break;
         case 2:
             // Registrar salida de un bailarín
 
-            printf("Ingerse la cedula del bailarin a eliminar: ");
-            scanf("%ld", &ci);
+//            printf("Ingerse la cedula del bailarin a eliminar: ");
+//            scanf("%ld", &ci);
 
-            while(existeBailarin(muestraComunal, ci) == FALSE)
-            {
-                system("cls");
-                printf("NO EXISTE BAILARIN PARA LA CEDULA INGRESADA. INGRESE NUEVAMENTE: ");
-                scanf("%ld", &ci);
-            }
-
-            eliminarBailarin(muestraComunal, ci);
+//            while(existeBailarin(muestraComunal, ci) == FALSE)
+//            {
+//                system("cls");
+//                printf("NO EXISTE BAILARIN PARA LA CEDULA INGRESADA. INGRESE NUEVAMENTE: ");
+//                scanf("%ld", &ci);
+//            }
+//
+//            eliminarBailarin(muestraComunal, ci);
             break;
         case 3:
             // Registrar nuevo premio para un bailarín infantil
 
-            printf("Ingerse la cedula del bailarin a premiar: ");
-            scanf("%ld", &ci);
-
-            while(existeBailarin(muestraComunal, ci) == FALSE)
-            {
-                system("cls");
-                printf("NO EXISTE BAILARIN PARA LA CEDULA INGRESADA. INGRESE NUEVAMENTE: ");
-                scanf("%ld", &ci);
-            }
-
-            sumaUnPremio(muestraComunal, ci);
+//            printf("Ingerse la cedula del bailarin a premiar: ");
+//            scanf("%ld", &ci);
+//
+//            while(existeBailarin(muestraComunal, ci) == FALSE)
+//            {
+//                system("cls");
+//                printf("NO EXISTE BAILARIN PARA LA CEDULA INGRESADA. INGRESE NUEVAMENTE: ");
+//                scanf("%ld", &ci);
+//            }
+//
+//            sumaUnPremio(muestraComunal, ci);
             break;
         case 4:
             // Menú de listados y consultas
@@ -127,9 +127,9 @@ int main()
             // Salir del programa
             break;
         default:
-            system("cls");
-            printf("OPCION INCORRECTA \n");
-            system("pause");
+//            system("cls");
+//            printf("OPCION INCORRECTA \n");
+//            system("pause");
             break;
         }
     }

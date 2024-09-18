@@ -19,17 +19,19 @@
 1726262960 c:\ude\programacion 2\ude_p2_obl1_2024\obligatorio_1 p2\1.auxiliares\strings.h
 	"boolean.h"
 
-1726267031 source:c:\ude\programacion 2\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\bailarin.cpp
+1726696637 source:c:\ude\programacion 2\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\bailarin.cpp
 	"bailarin.h"
 
-1726267155 source:c:\ude\programacion 2\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\muestra.cpp
+1726696637 source:c:\ude\programacion 2\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\muestra.cpp
 	"muestra.h"
 
-1726267143 source:c:\ude\programacion 2\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\paises.cpp
+1726696637 source:c:\ude\programacion 2\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\paises.cpp
+	<stdio.h>
 	"paises.h"
 
-1726267031 source:c:\ude\programacion 2\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\tipobailarin.cpp
+1726696637 source:c:\ude\programacion 2\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\tipobailarin.cpp
 	"tipoBailarin.h"
+	<stdio.h>
 
 1726264179 source:c:\users\felip\onedrive\escritorio\proyectos codeblock\obligatorio 2\ude_p2_obl1_2024\obligatorio_1 p2\1.auxiliares\boolean.cpp
 	<stdio.h>
@@ -78,7 +80,7 @@
 
 1726416079 c:\users\felip\onedrive\escritorio\proyectos codeblock\obligatorio 2\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\tipobailarin.h
 
-1726272319 source:c:\ude\programacion 2\ude_p2_obl1_2024\obligatorio_1 p2\1.auxiliares\time.cpp
+1726696637 source:c:\ude\programacion 2\ude_p2_obl1_2024\obligatorio_1 p2\1.auxiliares\time.cpp
 	<stdio.h>
 	"time.h"
 	"boolean.h"
@@ -86,7 +88,7 @@
 1726272328 c:\ude\programacion 2\ude_p2_obl1_2024\obligatorio_1 p2\1.auxiliares\time.h
 	"boolean.h"
 
-1726272488 c:\ude\programacion 2\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\bailarin.h
+1726696637 c:\ude\programacion 2\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\bailarin.h
 	<iostream>
 	"../1.Auxiliares/time.h"
 	"../1.Auxiliares/strings.h"
@@ -94,9 +96,9 @@
 	"tipoBailarin.h"
 	"paises.h"
 
-1726272523 c:\ude\programacion 2\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\tipobailarin.h
+1726273523 c:\ude\programacion 2\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\tipobailarin.h
 
-1726272515 c:\ude\programacion 2\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\paises.h
+1726273551 c:\ude\programacion 2\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\paises.h
 
 1726270670 c:\ude\programacion 2\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\muestra.h
 	"bailarin.h"
@@ -107,7 +109,7 @@
 
 1726269676 c:\ude\programacion 2\ude_p2_obl1_2024\obligatorio_1 p2\1.auxiliares\menu.h
 
-1726272274 source:c:\ude\programacion 2\ude_p2_obl1_2024\obligatorio_1 p2\main.cpp
+1726696866 source:c:\ude\programacion 2\ude_p2_obl1_2024\obligatorio_1 p2\main.cpp
 	<iostream>
 	<cstdlib>
 	"1.Auxiliares/menu.h"

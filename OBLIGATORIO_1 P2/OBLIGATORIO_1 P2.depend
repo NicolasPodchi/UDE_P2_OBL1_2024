@@ -100,7 +100,7 @@
 
 1726273551 c:\ude\programacion 2\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\paises.h
 
-1726706821 c:\ude\programacion 2\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\muestra.h
+1726784721 c:\ude\programacion 2\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\muestra.h
 	"bailarin.h"
 
 1726270359 source:c:\ude\programacion 2\ude_p2_obl1_2024\obligatorio_1 p2\1.auxiliares\menu.cpp
@@ -109,7 +109,7 @@
 
 1726269676 c:\ude\programacion 2\ude_p2_obl1_2024\obligatorio_1 p2\1.auxiliares\menu.h
 
-1726701137 source:c:\ude\programacion 2\ude_p2_obl1_2024\obligatorio_1 p2\main.cpp
+1726706745 source:c:\ude\programacion 2\ude_p2_obl1_2024\obligatorio_1 p2\main.cpp
 	<iostream>
 	<cstdlib>
 	"1.Auxiliares/menu.h"

@@ -23,6 +23,7 @@ void inicializarMuestra(muestra &muestraParam)
     muestraParam.tope= 0;
 }
 
+//Debe existir un bailarin con la cedula ingresada
 void sumaUnPremio (muestra &lista, long int ci)
 {
     int i = 0;
@@ -40,6 +41,7 @@ void sumaUnPremio (muestra &lista, long int ci)
     }
 }
 
+//El bailarin no puede existir en la muestra
 void nuevoBailarin (bailarin b, muestra &lista)
 {
     cargarBailarin(b);
@@ -47,6 +49,7 @@ void nuevoBailarin (bailarin b, muestra &lista)
     lista.tope++;
 }
 
+//El bailarin debe existir en la muestra
 void eliminarBailarin (long int ci, muestra &lista)
 {
     muestra listaAUX;
@@ -80,11 +83,13 @@ boolean existeBailarin (muestra lista, long int ci)
     return existe;
 }
 
+//La muestra no puede estar vacia -  -
 time horaUltimoBailarin (muestra lista)
 {
     return darHoraIngreso(lista.arre[lista.tope-1]);
 }
 
+//La lista no puede estar vacia o se debe mostrar un mensaje de error dentro de imprimirLista
 void imprimirLista (muestra lista)
 {
     int i;
@@ -138,7 +143,7 @@ int cantidadTango(muestra lista, strings estilo)
 int cantidadNacidosFecha(muestra lista, date f)
 {
     int i, cant=0;
-    for(i=0;i<lista.tope-1;i++)
+    for(i=0; i<lista.tope-1; i++)
     {
         if(compararDate(f,darFechaNacimiento(lista.arre[i]))==TRUE)
             cant++;
@@ -146,17 +151,33 @@ int cantidadNacidosFecha(muestra lista, date f)
     return cant;
 }
 
-void cedulaybailarin(long int ci, muestra lista)//tiene que tener la cedula algun bailarin
+//Tiene que tener la cedula algun bailarin o se debe mostrar un mensaje de error dentro de cedulaybailarin
+void cedulaybailarin(long int ci, muestra lista)
 {
     int i;
     bailarin b;
-    for (i=0;i<lista.tope;i++)
+    for (i=0; i<lista.tope; i++)
         if(ci== darCedula(b))
             listarBailarin(b);
         else
             i++;
 }
 
+//Cantidad de bailarines infantiles que superan una cantidad de premios dada
+int InfantilSuperaPremios(muestra lista, int cantidadPremios)
+{
+    int cantidad = 0;
 
+    int i=0;
+    while(i<lista.tope)
+    {
+        if(dar darCantidadPremiios(lista.arre[i]) > cantidadPremios)
+            cantidad++
+        else
+            i++;
+    }
+
+    return cantidad;
+}
 
 

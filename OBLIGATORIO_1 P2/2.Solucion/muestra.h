@@ -24,7 +24,7 @@ time horaUltimoBailarin (muestra comunal);
 void nuevoBailarin (bailarin b, muestra &lista);
 
 // PRECONDICION: Debe existir bailarin para la ci
-void eliminarBailarin (muestra &lista, long int ci);
+void eliminarBailarin (long int ci, muestra &lista);
 
 //BAILARIN INFANTIL
 void sumaUnPremio (muestra &lista, long int ci);

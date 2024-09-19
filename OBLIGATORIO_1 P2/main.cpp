@@ -8,10 +8,9 @@ using namespace std;
 
 void procesarConsulta(muestra muestraComunal, int opcionConsultas)
 {
-    int infantil, juvenil, adulto;
-
     //AUX
     long int ci;
+    int infantil, juvenil, adulto;
 
     do
     {
@@ -21,12 +20,12 @@ void procesarConsulta(muestra muestraComunal, int opcionConsultas)
         switch(opcionConsultas)
         {
         case 1:
-            //Listado b�sico de bailarines ingresados, ordenado por hora de llegada
+            //Listado basico de bailarines ingresados, ordenado por hora de llegada
+
             //imprimirLista(muestraComunal);
             break;
         case 2:
-            //Listado detallado de un bailar�n, dada su c�dula
-
+            //Listado detallado de un bailarin, dada su cedula
 
             printf("Ingerse la cedula del bailarin a consultar: ");
             scanf("%ld", &ci);
@@ -41,7 +40,7 @@ void procesarConsulta(muestra muestraComunal, int opcionConsultas)
             break;
         case 3:
             //Cantidad de bailarines de cada tipo ingresados
-//            cantidadTipoBailarin(muestraComunal, infantil, juvenil, adulto);
+            //cantidadTipoBailarin(muestraComunal, infantil, juvenil, adulto);
             //mostrar resultados
             break;
         case 4:
@@ -49,6 +48,18 @@ void procesarConsulta(muestra muestraComunal, int opcionConsultas)
             break;
         case 5:
             //Cantidad de bailarines infantiles que superan una cantidad de premios dada
+            printf(":: CANTIDAD DE BAILARINES INFANTILES QUE SUPERAN UNA CANTIDAD DE PREMIOS DADA :: \n");
+
+            int cantidadPremios;
+            int cantidadPremiosResultado;
+
+            printf("Ingrese la cantidad de premios: ");
+            scanf("%d", &cantidadPremios);
+
+            cantidadPremiosResultado=InfantilSuperaPremios(muestra lista, int cantidadPremios);
+            printf("\n%d bailarines infantiles superan los %d premios.",cantidadPremios);
+
+            system("pause");
             break;
         case 6:
             //Cantidad de bailarines juveniles que bailan un estilo de tango dado
@@ -57,7 +68,7 @@ void procesarConsulta(muestra muestraComunal, int opcionConsultas)
             //Cantidad de bailarines adultos provenientes del mercosur y de fuera
             break;
         case 8:
-            //Volver al men� principal
+            //Volver al menu principal
             break;
         default:
             system("cls");
@@ -89,15 +100,16 @@ int main()
         case 1:
             // Registrar ingreso de un bailar n
 
+            //validar que la muestra no este llena, si esta llena emitir mensaje de error
 
             cargarBailarin(b);
 
-            //valiDAR HORA
+            //valiDAR HORA. mientras no ingrese la hora bien, tiene que seguir cargando el bailarin
 
             nuevoBailarin(b, muestraComunal);
             break;
         case 2:
-            // Registrar salida de un bailar�n
+            // Registrar salida de un bailarin
 
             printf("Ingerse la cedula del bailarin a eliminar: ");
             scanf("%ld", &ci);
@@ -112,7 +124,7 @@ int main()
             eliminarBailarin(ci, muestraComunal);
             break;
         case 3:
-            // Registrar nuevo premio para un bailar�n infantil
+            // Registrar nuevo premio para un bailarin infantil
 
             printf("Ingerse la cedula del bailarin a premiar: ");
             scanf("%ld", &ci);
@@ -127,16 +139,16 @@ int main()
             sumaUnPremio(muestraComunal, ci);
             break;
         case 4:
-            // Men� de listados y consultas
+            // Menu de listados y consultas
             procesarConsulta(muestraComunal, opcionConsultas);
             break;
         case 5:
             // Salir del programa
             break;
         default:
-//            system("cls");
-//            printf("OPCION INCORRECTA \n");
-//            system("pause");
+            system("cls");
+            printf("OPCION INCORRECTA \n");
+            system("pause");
             break;
         }
     }

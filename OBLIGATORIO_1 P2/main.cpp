@@ -21,23 +21,23 @@ void procesarConsulta(muestra muestraComunal, int opcionConsultas)
         switch(opcionConsultas)
         {
         case 1:
-            //Listado básico de bailarines ingresados, ordenado por hora de llegada
+            //Listado bï¿½sico de bailarines ingresados, ordenado por hora de llegada
             //imprimirLista(muestraComunal);
             break;
         case 2:
-            //Listado detallado de un bailarín, dada su cédula
+            //Listado detallado de un bailarï¿½n, dada su cï¿½dula
 
-//            printf("Ingerse la cedula del bailarin a consultar: ");
-//            scanf("%ld", &ci);
 
-//            while(existeBailarin(muestraComunal, ci) == FALSE)
-//            {
-//                system("cls");
-//                printf("NO EXISTE BAILARIN PARA LA CEDULA INGRESADA. INGRESE NUEVAMENTE: ");
-//                scanf("%ld", &ci);
-//            }
-//
-//            imprimirBailarin(muestraComunal, ci);
+            printf("Ingerse la cedula del bailarin a consultar: ");
+            scanf("%ld", &ci);
+            while(existeBailarin(muestraComunal, ci) == FALSE)
+            {
+                system("cls");
+                printf("NO EXISTE BAILARIN PARA LA CEDULA INGRESADA. INGRESE NUEVAMENTE: ");
+                scanf("%ld", &ci);
+            }
+
+            cedulaybailarin(ci,muestraComunal);
             break;
         case 3:
             //Cantidad de bailarines de cada tipo ingresados
@@ -57,7 +57,7 @@ void procesarConsulta(muestra muestraComunal, int opcionConsultas)
             //Cantidad de bailarines adultos provenientes del mercosur y de fuera
             break;
         case 8:
-            //Volver al menú principal
+            //Volver al menï¿½ principal
             break;
         default:
             system("cls");
@@ -87,43 +87,47 @@ int main()
         switch(opcion)
         {
         case 1:
-            // Registrar ingreso de un bailarín
-//            nuevoBailarin(muestraComunal);
+            // Registrar ingreso de un bailar n
+
 
             cargarBailarin(b);
+
+            //valiDAR HORA
+
+            nuevoBailarin(b, muestraComunal);
             break;
         case 2:
-            // Registrar salida de un bailarín
+            // Registrar salida de un bailarï¿½n
 
-//            printf("Ingerse la cedula del bailarin a eliminar: ");
-//            scanf("%ld", &ci);
+            printf("Ingerse la cedula del bailarin a eliminar: ");
+            scanf("%ld", &ci);
 
-//            while(existeBailarin(muestraComunal, ci) == FALSE)
-//            {
-//                system("cls");
-//                printf("NO EXISTE BAILARIN PARA LA CEDULA INGRESADA. INGRESE NUEVAMENTE: ");
-//                scanf("%ld", &ci);
-//            }
-//
-//            eliminarBailarin(muestraComunal, ci);
+            while(existeBailarin(muestraComunal, ci) == FALSE)
+            {
+                system("cls");
+                printf("NO EXISTE BAILARIN PARA LA CEDULA INGRESADA. INGRESE NUEVAMENTE: ");
+                scanf("%ld", &ci);
+            }
+
+            eliminarBailarin(ci, muestraComunal);
             break;
         case 3:
-            // Registrar nuevo premio para un bailarín infantil
+            // Registrar nuevo premio para un bailarï¿½n infantil
 
-//            printf("Ingerse la cedula del bailarin a premiar: ");
-//            scanf("%ld", &ci);
-//
-//            while(existeBailarin(muestraComunal, ci) == FALSE)
-//            {
-//                system("cls");
-//                printf("NO EXISTE BAILARIN PARA LA CEDULA INGRESADA. INGRESE NUEVAMENTE: ");
-//                scanf("%ld", &ci);
-//            }
-//
-//            sumaUnPremio(muestraComunal, ci);
+            printf("Ingerse la cedula del bailarin a premiar: ");
+            scanf("%ld", &ci);
+
+            while(existeBailarin(muestraComunal, ci) == FALSE)
+            {
+                system("cls");
+                printf("NO EXISTE BAILARIN PARA LA CEDULA INGRESADA. INGRESE NUEVAMENTE: ");
+                scanf("%ld", &ci);
+            }
+
+            sumaUnPremio(muestraComunal, ci);
             break;
         case 4:
-            // Menú de listados y consultas
+            // Menï¿½ de listados y consultas
             procesarConsulta(muestraComunal, opcionConsultas);
             break;
         case 5:

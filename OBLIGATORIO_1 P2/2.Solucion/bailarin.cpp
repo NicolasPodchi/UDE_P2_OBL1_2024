@@ -68,7 +68,7 @@ date darFechaNacimiento(bailarin b)
 
 time darHoraIngreso(bailarin b)
 {
-    return b.horaIngreso
+    return b.horaIngreso;
 }
 
 tipoBailarin darTipoBailarin(bailarin b)

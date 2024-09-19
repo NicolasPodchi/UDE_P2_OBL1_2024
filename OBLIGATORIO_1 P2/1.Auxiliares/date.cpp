@@ -75,3 +75,11 @@ int getAnio(date d)
     return d.anio;
 }
 
+boolean compararDate(date d1, date d2)
+{
+    boolean iguales=FALSE;
+    if(getDia(d1)==getDia(d2)&&getMes(d1)==getMes(d2)&&getAnio(d1)==getAnio(d2))
+        iguales=TRUE;
+    return iguales;
+}
+

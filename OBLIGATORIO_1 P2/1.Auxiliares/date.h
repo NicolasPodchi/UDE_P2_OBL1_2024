@@ -21,4 +21,6 @@ int getDia(date d);
 int getMes(date d);
 int getAnio(date d);
 
+boolean compararDate(date d1, date d2);
+
 #endif // DATE_H_INCLUDED

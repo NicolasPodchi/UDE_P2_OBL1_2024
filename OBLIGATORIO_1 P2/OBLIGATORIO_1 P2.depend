@@ -137,3 +137,72 @@
 	<iostream>
 	"menu.h"
 
+1726261647 source:c:\users\fauss\onedrive\escritorio\lic inf ude\semestre ii\pr ii\ude_p2_obl1_2024\obligatorio_1 p2\1.auxiliares\boolean.cpp
+	<stdio.h>
+	"boolean.h"
+
+1726261647 c:\users\fauss\onedrive\escritorio\lic inf ude\semestre ii\pr ii\ude_p2_obl1_2024\obligatorio_1 p2\1.auxiliares\boolean.h
+
+1726272666 source:c:\users\fauss\onedrive\escritorio\lic inf ude\semestre ii\pr ii\ude_p2_obl1_2024\obligatorio_1 p2\1.auxiliares\menu.cpp
+	<iostream>
+	"menu.h"
+
+1726272666 c:\users\fauss\onedrive\escritorio\lic inf ude\semestre ii\pr ii\ude_p2_obl1_2024\obligatorio_1 p2\1.auxiliares\menu.h
+
+1725061964 source:c:\users\fauss\onedrive\escritorio\lic inf ude\semestre ii\pr ii\ude_p2_obl1_2024\obligatorio_1 p2\1.auxiliares\strings.cpp
+	"strings.h"
+	<stdio.h>
+
+1726702072 c:\users\fauss\onedrive\escritorio\lic inf ude\semestre ii\pr ii\ude_p2_obl1_2024\obligatorio_1 p2\1.auxiliares\strings.h
+	"boolean.h"
+
+1726793790 source:c:\users\fauss\onedrive\escritorio\lic inf ude\semestre ii\pr ii\ude_p2_obl1_2024\obligatorio_1 p2\1.auxiliares\time.cpp
+	<stdio.h>
+	"time.h"
+	"boolean.h"
+
+1726702072 c:\users\fauss\onedrive\escritorio\lic inf ude\semestre ii\pr ii\ude_p2_obl1_2024\obligatorio_1 p2\1.auxiliares\time.h
+	"boolean.h"
+
+1726793790 source:c:\users\fauss\onedrive\escritorio\lic inf ude\semestre ii\pr ii\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\paises.cpp
+	<stdio.h>
+	"paises.h"
+
+1726273645 c:\users\fauss\onedrive\escritorio\lic inf ude\semestre ii\pr ii\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\paises.h
+
+1726793790 source:c:\users\fauss\onedrive\escritorio\lic inf ude\semestre ii\pr ii\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\tipobailarin.cpp
+	"tipoBailarin.h"
+	<stdio.h>
+
+1726273645 c:\users\fauss\onedrive\escritorio\lic inf ude\semestre ii\pr ii\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\tipobailarin.h
+
+1726793790 source:c:\users\fauss\onedrive\escritorio\lic inf ude\semestre ii\pr ii\ude_p2_obl1_2024\obligatorio_1 p2\1.auxiliares\date.cpp
+	<iostream>
+	"date.h"
+
+1726787791 c:\users\fauss\onedrive\escritorio\lic inf ude\semestre ii\pr ii\ude_p2_obl1_2024\obligatorio_1 p2\1.auxiliares\date.h
+	"boolean.h"
+
+1726793595 source:c:\users\fauss\onedrive\escritorio\lic inf ude\semestre ii\pr ii\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\bailarin.cpp
+	"bailarin.h"
+
+1726702072 c:\users\fauss\onedrive\escritorio\lic inf ude\semestre ii\pr ii\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\bailarin.h
+	<iostream>
+	"../1.Auxiliares/time.h"
+	"../1.Auxiliares/strings.h"
+	"../1.Auxiliares/date.h"
+	"tipoBailarin.h"
+	"paises.h"
+
+1726795243 source:c:\users\fauss\onedrive\escritorio\lic inf ude\semestre ii\pr ii\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\muestra.cpp
+	"muestra.h"
+
+1726795243 c:\users\fauss\onedrive\escritorio\lic inf ude\semestre ii\pr ii\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\muestra.h
+	"bailarin.h"
+
+1726795243 source:c:\users\fauss\onedrive\escritorio\lic inf ude\semestre ii\pr ii\ude_p2_obl1_2024\obligatorio_1 p2\main.cpp
+	<iostream>
+	<cstdlib>
+	"1.Auxiliares/menu.h"
+	"2.Solucion/muestra.h"
+

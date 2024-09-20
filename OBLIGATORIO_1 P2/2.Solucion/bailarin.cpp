@@ -33,17 +33,32 @@ void cargarBailarin(bailarin &b)
 void listarBailarin (bailarin b)
 {
     printf("\n ----DATOS DEL BAILARIN----\n");
-    printf("NOMBRE : ");
+    printf("NOMBRE: ");
     print (b.nombre);
-    printf("\n APELLIDO: ");
+    printf("\nAPELLIDO: ");
     print(b.apellido);
-    printf("\nCEDULA: %ld", &b.cedula);
-    printf("\nFECHA NACIMIENTO : ");
+    printf("\nCEDULA: %ld", b.cedula);
+    printf("\nFECHA NACIMIENTO: ");
     printDate(b.fechaNacimiento);
+    printf("\n");
+    printf("HORA DE INGRESO: ");
     printhora(b.horaIngreso);
     printf("\nTIPO BAILARIN: ");
     mostrarTipoBailarin(b.discriminante);
-
+    printf("\n");
+    switch(b.discriminante)
+    {
+    case INFANTIL:
+        printf("Cantidad premios: %d", b.datos.cantidadPremios);
+        break;
+    case JUVENIL:
+        printf("Estilo de tango: ");
+        print(b.datos.estiloTango);
+        break;
+    case ADULTO:
+        printf("Nacionalidad: ");
+        mostrarPais(b.datos.nacionalidad);
+    }
 }
 
 long int darCedula(bailarin b)

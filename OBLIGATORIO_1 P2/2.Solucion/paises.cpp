@@ -10,7 +10,7 @@ void cargarPais(paises p)
     printf("\n2 - Brasil");
     printf("\n3 - Argentina");
     printf("\n4 - Paraguay");
-    printf("\n5 - Otro");
+    printf("\n5 - Otro\n");
     scanf("%d",&x);
     switch(x)
     {

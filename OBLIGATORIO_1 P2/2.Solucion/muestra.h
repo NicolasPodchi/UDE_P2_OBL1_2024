@@ -41,5 +41,11 @@ int cantidadTango(muestra lista, strings estilo);
 
 int cantidadNacidosFecha(muestra lista, date f);
 
-void cedulaybailarin(long int ci, muestra lista);
+bailarin cedulaybailarin(long int ci, muestra lista);
+
+void cantidadMercosurYOtros(muestra lista, int &cantMercosur, int &cantOtro);
+
+boolean ValidarHora(muestra lista, time horaIngreso);
+
+int InfantilSuperaPremios(muestra lista, int cantidadPremios);
 #endif // MUESTRA_H_INCLUDED

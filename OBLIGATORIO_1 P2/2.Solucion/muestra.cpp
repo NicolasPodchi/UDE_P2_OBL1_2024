@@ -5,8 +5,6 @@ boolean estaVacio (muestra comunal)
     boolean VACIO=FALSE;
     if(comunal.tope==0)
         VACIO=TRUE;
-    else
-        VACIO=FALSE;
     return VACIO;
 }
 
@@ -44,7 +42,6 @@ void sumaUnPremio (muestra &lista, long int ci)
 //El bailarin no puede existir en la muestra
 void nuevoBailarin (bailarin b, muestra &lista)
 {
-    cargarBailarin(b);
     lista.arre[lista.tope]=b;
     lista.tope++;
 }
@@ -93,11 +90,11 @@ time horaUltimoBailarin (muestra lista)
 void imprimirLista (muestra lista)
 {
     int i;
-    for(i=0; i<lista.tope-1; i++)
+    for(i=0; i<lista.tope; i++)
     {
-        printf("LISTA DE BAILARINES REGISTRADOS:\n\n");
         printf("%d.",i+1);
         listarBailarin(lista.arre[i]);
+        printf("\n");
     }
 }
 
@@ -107,7 +104,7 @@ void cantidadTipoBailarin(muestra lista, int &infantil, int &juvenil, int &adult
     infantil=0;
     juvenil =0;
     adulto=0;
-    for(i=0; i<lista.tope-1; i++)
+    for(i=0; i<lista.tope; i++)
     {
         switch(darTipoBailarin(lista.arre[i]))
         {
@@ -128,7 +125,7 @@ int cantidadTango(muestra lista, strings estilo)
 {
     int cant=0, i;
     strings bailaEstilo;
-    for (i=0; i<lista.tope-1; i++)
+    for (i=0; i<lista.tope; i++)
     {
         if(darTipoBailarin(lista.arre[i])==JUVENIL)
         {
@@ -143,7 +140,7 @@ int cantidadTango(muestra lista, strings estilo)
 int cantidadNacidosFecha(muestra lista, date f)
 {
     int i, cant=0;
-    for(i=0; i<lista.tope-1; i++)
+    for(i=0; i<lista.tope; i++)
     {
         if(compararDate(f,darFechaNacimiento(lista.arre[i]))==TRUE)
             cant++;
@@ -152,15 +149,22 @@ int cantidadNacidosFecha(muestra lista, date f)
 }
 
 //Tiene que tener la cedula algun bailarin o se debe mostrar un mensaje de error dentro de cedulaybailarin
-void cedulaybailarin(long int ci, muestra lista)
+bailarin cedulaybailarin(long int ci, muestra lista)
 {
-    int i;
     bailarin b;
-    for (i=0; i<lista.tope; i++)
-        if(ci== darCedula(b))
-            listarBailarin(b);
+    boolean existe=FALSE;
+    int i=0;
+    while(!existe && i<lista.tope)
+    {
+        if(darCedula(lista.arre[i])==ci)
+        {
+            existe=TRUE;
+            b=lista.arre[i];
+        }
         else
             i++;
+    }
+    return b;
 }
 
 //Cantidad de bailarines infantiles que superan una cantidad de premios dada
@@ -171,8 +175,8 @@ int InfantilSuperaPremios(muestra lista, int cantidadPremios)
     int i=0;
     while(i<lista.tope)
     {
-        if(dar darCantidadPremiios(lista.arre[i]) > cantidadPremios)
-            cantidad++
+        if(darCantidadPremiios(lista.arre[i]) > cantidadPremios)
+            cantidad++;
         else
             i++;
     }
@@ -180,4 +184,33 @@ int InfantilSuperaPremios(muestra lista, int cantidadPremios)
     return cantidad;
 }
 
+void cantidadMercosurYOtros(muestra lista, int &cantMercosur, int &cantOtro)
+{
+    cantMercosur=0;
+    cantOtro=0;
+    int i;
+    for(i=0;i<lista.tope;i++)
+    {
+        if(darTipoBailarin(lista.arre[i])==ADULTO)
+        {
+            if(darPais(lista.arre[i])==OTRO)
+                cantOtro++;
+            else
+                cantMercosur++;
+        }
+    }
+}
 
+//Validar hora
+boolean ValidarHora(muestra lista, time horaIngreso)
+{
+    boolean valido = TRUE;
+    time horaUltimo;
+    //validar si la lista vacia
+    if(estaVacio(lista) == FALSE)
+    {
+        horaUltimo = horaUltimoBailarin(lista);
+        valido = compararhora(horaIngreso, horaUltimo);
+    }
+    return valido;
+}

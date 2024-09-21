@@ -38,8 +38,17 @@ void cargarhora (time &t)
 
 void printhora (time t)
 {
-    printf("%d:%d", t.horas,t.minutos);
+    if(t.horas <= 9)
+        printf("0");
+
+    printf("%d:", t.horas);
+
+    if(t.minutos <= 9)
+        printf("0");
+
+    printf("%d", t.minutos);
 }
+
 
 //GET
 int getHoras(time t)
@@ -57,11 +66,8 @@ boolean compararhora(time b, time c)
     boolean mayor=FALSE;
     if((b.horas)>(c.horas))
         mayor=TRUE;
-    else if ((b.horas)<(c.horas))
-        mayor= FALSE;
-    else if((b.minutos)>(c.minutos))
+    else if((b.horas)==(c.horas) && (b.minutos)>=(c.minutos))
         mayor=TRUE;
-    else if ((b.minutos)<  (c.minutos))
-        mayor=FALSE;
+
     return mayor;
 }

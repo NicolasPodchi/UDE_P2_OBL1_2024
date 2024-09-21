@@ -156,7 +156,7 @@
 1726702072 c:\users\fauss\onedrive\escritorio\lic inf ude\semestre ii\pr ii\ude_p2_obl1_2024\obligatorio_1 p2\1.auxiliares\strings.h
 	"boolean.h"
 
-1726793790 source:c:\users\fauss\onedrive\escritorio\lic inf ude\semestre ii\pr ii\ude_p2_obl1_2024\obligatorio_1 p2\1.auxiliares\time.cpp
+1726873842 source:c:\users\fauss\onedrive\escritorio\lic inf ude\semestre ii\pr ii\ude_p2_obl1_2024\obligatorio_1 p2\1.auxiliares\time.cpp
 	<stdio.h>
 	"time.h"
 	"boolean.h"
@@ -164,13 +164,13 @@
 1726702072 c:\users\fauss\onedrive\escritorio\lic inf ude\semestre ii\pr ii\ude_p2_obl1_2024\obligatorio_1 p2\1.auxiliares\time.h
 	"boolean.h"
 
-1726793790 source:c:\users\fauss\onedrive\escritorio\lic inf ude\semestre ii\pr ii\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\paises.cpp
+1726877309 source:c:\users\fauss\onedrive\escritorio\lic inf ude\semestre ii\pr ii\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\paises.cpp
 	<stdio.h>
 	"paises.h"
 
-1726273645 c:\users\fauss\onedrive\escritorio\lic inf ude\semestre ii\pr ii\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\paises.h
+1726877333 c:\users\fauss\onedrive\escritorio\lic inf ude\semestre ii\pr ii\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\paises.h
 
-1726793790 source:c:\users\fauss\onedrive\escritorio\lic inf ude\semestre ii\pr ii\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\tipobailarin.cpp
+1726871873 source:c:\users\fauss\onedrive\escritorio\lic inf ude\semestre ii\pr ii\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\tipobailarin.cpp
 	"tipoBailarin.h"
 	<stdio.h>
 
@@ -183,10 +183,10 @@
 1726787791 c:\users\fauss\onedrive\escritorio\lic inf ude\semestre ii\pr ii\ude_p2_obl1_2024\obligatorio_1 p2\1.auxiliares\date.h
 	"boolean.h"
 
-1726793595 source:c:\users\fauss\onedrive\escritorio\lic inf ude\semestre ii\pr ii\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\bailarin.cpp
+1726876538 source:c:\users\fauss\onedrive\escritorio\lic inf ude\semestre ii\pr ii\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\bailarin.cpp
 	"bailarin.h"
 
-1726702072 c:\users\fauss\onedrive\escritorio\lic inf ude\semestre ii\pr ii\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\bailarin.h
+1726870894 c:\users\fauss\onedrive\escritorio\lic inf ude\semestre ii\pr ii\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\bailarin.h
 	<iostream>
 	"../1.Auxiliares/time.h"
 	"../1.Auxiliares/strings.h"
@@ -194,13 +194,13 @@
 	"tipoBailarin.h"
 	"paises.h"
 
-1726795243 source:c:\users\fauss\onedrive\escritorio\lic inf ude\semestre ii\pr ii\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\muestra.cpp
+1726878037 source:c:\users\fauss\onedrive\escritorio\lic inf ude\semestre ii\pr ii\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\muestra.cpp
 	"muestra.h"
 
-1726795243 c:\users\fauss\onedrive\escritorio\lic inf ude\semestre ii\pr ii\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\muestra.h
+1726875189 c:\users\fauss\onedrive\escritorio\lic inf ude\semestre ii\pr ii\ude_p2_obl1_2024\obligatorio_1 p2\2.solucion\muestra.h
 	"bailarin.h"
 
-1726795243 source:c:\users\fauss\onedrive\escritorio\lic inf ude\semestre ii\pr ii\ude_p2_obl1_2024\obligatorio_1 p2\main.cpp
+1726873453 source:c:\users\fauss\onedrive\escritorio\lic inf ude\semestre ii\pr ii\ude_p2_obl1_2024\obligatorio_1 p2\main.cpp
 	<iostream>
 	<cstdlib>
 	"1.Auxiliares/menu.h"

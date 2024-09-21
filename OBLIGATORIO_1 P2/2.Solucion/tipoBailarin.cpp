@@ -5,18 +5,22 @@
 //CARGAR BAILARIN
 void cargarTipoBailarin(tipoBailarin &b)
 {
-    printf("Ingrese el tipo de bailarin: ");
+    printf("Ingrese el tipo de bailarin");
     printf("\n 1 - Infantil ");
     printf("\n 2 - Juvenil ");
     printf("\n 3 - Adulto \n");
-
+    printf("Seleccione la opcion: ");
     int num;
     scanf("%d", &num);
-
+    while(num<1 || num>3)
+    {
+        printf("Valor erroneo, ingrese devuelta: ");
+        scanf("%d", &num);
+    }
     switch(num)
     {
     case 1:
-            b=INFANTIL ;
+        b=INFANTIL ;
         break;
 
     case 2:
@@ -26,11 +30,8 @@ void cargarTipoBailarin(tipoBailarin &b)
     case 3:
         b = ADULTO;
         break;
-
-    default:printf("Valor erroneo, ingrese devuelta.");
-        //VALIDAR ELEMENTO
-        break;
     }
+
 }
 
 //MOSTRAR BAILARIN

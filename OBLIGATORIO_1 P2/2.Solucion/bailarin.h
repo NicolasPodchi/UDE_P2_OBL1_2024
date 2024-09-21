@@ -52,5 +52,6 @@ void darEstiloTango(bailarin b, strings &estilo);
 
 paises darPais(bailarin b);
 
+void listarBailarinResumen (bailarin b);
 
 #endif // BAILARIN_H_INCLUDED

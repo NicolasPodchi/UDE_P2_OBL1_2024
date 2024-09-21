@@ -8,11 +8,10 @@ typedef enum
     ARGENTINA,
     PARAGUAY,
     OTRO
-
 } paises;
 
 //CARGAR PAIS
-void cargarPais(paises p);
+void cargarPais(paises &p);
 
 //MOSTRAR PAIS
 void mostrarPais(paises p);

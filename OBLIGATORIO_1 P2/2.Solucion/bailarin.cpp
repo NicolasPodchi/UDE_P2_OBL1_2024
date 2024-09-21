@@ -14,7 +14,6 @@ void cargarBailarin(bailarin &b)
     printf("Ingrese hora de ingreso (hh mm): ");
     cargarhora(b.horaIngreso);
     cargarTipoBailarin (b.discriminante);
-
     switch (b.discriminante)
     {
     case INFANTIL:
@@ -49,15 +48,16 @@ void listarBailarin (bailarin b)
     switch(b.discriminante)
     {
     case INFANTIL:
-        printf("Cantidad premios: %d", b.datos.cantidadPremios);
+        printf("CANTIDAD DE PREMIOS: %d", b.datos.cantidadPremios);
         break;
     case JUVENIL:
-        printf("Estilo de tango: ");
+        printf("ESTILO DE TANGO: ");
         print(b.datos.estiloTango);
         break;
     case ADULTO:
-        printf("Nacionalidad: ");
+        printf("NACIONALIDAD: ");
         mostrarPais(b.datos.nacionalidad);
+        break;
     }
 }
 
@@ -106,7 +106,19 @@ paises darPais(bailarin b)
     return b.datos.nacionalidad;
 }
 
+void listarBailarinResumen (bailarin b)
+{
+    printf("\n ----DATOS DEL BAILARIN----\n");
+    printf("\nCEDULA: %ld", b.cedula);
+    printf("\nNOMBRE: ");
+    print (b.nombre);
+    printf("\nAPELLIDO: ");
+    print(b.apellido);
+    printf("\nTIPO BAILARIN: ");
+    mostrarTipoBailarin(b.discriminante);
+    printf("\n ----******************----\n");
 
+}
 
 
 

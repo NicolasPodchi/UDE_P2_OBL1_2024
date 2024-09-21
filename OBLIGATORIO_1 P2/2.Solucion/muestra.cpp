@@ -21,7 +21,7 @@ void inicializarMuestra(muestra &muestraParam)
     muestraParam.tope= 0;
 }
 
-//Debe existir un bailarin con la cedula ingresada
+//Debe existir un bailarin con la cedula ingresada y debe ser un bailarin infantil
 void sumaUnPremio (muestra &lista, long int ci)
 {
     int i = 0;
@@ -86,14 +86,14 @@ time horaUltimoBailarin (muestra lista)
     return darHoraIngreso(lista.arre[lista.tope-1]);
 }
 
-//La lista no puede estar vacia o se debe mostrar un mensaje de error dentro de imprimirLista
+//La lista no puede estar vacia
 void imprimirLista (muestra lista)
 {
     int i;
     for(i=0; i<lista.tope; i++)
     {
         printf("%d.",i+1);
-        listarBailarin(lista.arre[i]);
+        listarBailarinResumen(lista.arre[i]);
         printf("\n");
     }
 }
@@ -148,7 +148,7 @@ int cantidadNacidosFecha(muestra lista, date f)
     return cant;
 }
 
-//Tiene que tener la cedula algun bailarin o se debe mostrar un mensaje de error dentro de cedulaybailarin
+//Tiene que tener la cedula algun bailarin
 bailarin cedulaybailarin(long int ci, muestra lista)
 {
     bailarin b;
@@ -172,13 +172,13 @@ int InfantilSuperaPremios(muestra lista, int cantidadPremios)
 {
     int cantidad = 0;
 
-    int i=0;
-    while(i<lista.tope)
+    int i;
+    for(i=0;i<lista.tope;i++)
     {
-        if(darCantidadPremiios(lista.arre[i]) > cantidadPremios)
+        if(darTipoBailarin(lista.arre[i])==INFANTIL && darCantidadPremiios(lista.arre[i]) > cantidadPremios )
+        {
             cantidad++;
-        else
-            i++;
+        }
     }
 
     return cantidad;
@@ -189,7 +189,7 @@ void cantidadMercosurYOtros(muestra lista, int &cantMercosur, int &cantOtro)
     cantMercosur=0;
     cantOtro=0;
     int i;
-    for(i=0;i<lista.tope;i++)
+    for(i=0; i<lista.tope; i++)
     {
         if(darTipoBailarin(lista.arre[i])==ADULTO)
         {

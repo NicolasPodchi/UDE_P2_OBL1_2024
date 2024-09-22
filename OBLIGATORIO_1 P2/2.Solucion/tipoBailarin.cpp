@@ -5,7 +5,7 @@
 //CARGAR BAILARIN
 void cargarTipoBailarin(tipoBailarin &b)
 {
-    printf("Ingrese el tipo de bailarin");
+    printf("Tipo de bailarin");
     printf("\n 1 - Infantil ");
     printf("\n 2 - Juvenil ");
     printf("\n 3 - Adulto \n");

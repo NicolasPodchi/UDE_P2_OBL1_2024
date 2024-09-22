@@ -5,7 +5,7 @@
 void cargarPais(paises &p)
 {
     int x;
-    printf("Ingrese pais del bailarin");
+    printf("Pais");
     printf("\n 1 - Uruguay");
     printf("\n 2 - Brasil");
     printf("\n 3 - Argentina");

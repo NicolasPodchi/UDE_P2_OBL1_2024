@@ -3,29 +3,39 @@
 
 void cargarBailarin(bailarin &b)
 {
-    printf("Ingrese nombre: ");
+    printf("Nombre: ");
     scan(b.nombre);
-    printf("Ingrese apellido: ");
+
+    printf("Apellido: ");
     scan(b.apellido);
-    printf("Ingrese cedula: ");
+
+    printf("Cedula: ");
     scanf("%ld", &b.cedula);
-    printf("Ingrese fecha de nacimiento (dd mm yyyy): ");
+
+    printf("\n");
+    printf("Fecha de nacimiento \n");
     scanDate(b.fechaNacimiento);
-    printf("Ingrese hora de ingreso (hh mm): ");
+
+    printf("\n");
+    printf("Hora de ingreso \n");
     cargarhora(b.horaIngreso);
+
+    printf("\n");
     cargarTipoBailarin (b.discriminante);
+
     switch (b.discriminante)
     {
     case INFANTIL:
-        printf("Ingrese cantidad de premios: ");
+        printf("\nCantidad de premios: ");
         scanf("%d", &b.datos.cantidadPremios);
         break;
     case JUVENIL:
-        printf("\nIngrese estilo de tango: ");
+        printf("\nEstilo de tango: ");
         scan(b.datos.estiloTango);
         break;
 
     case ADULTO:
+        printf("\n");
         cargarPais (b.datos.nacionalidad);
     }
 }

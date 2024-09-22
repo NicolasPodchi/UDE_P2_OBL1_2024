@@ -23,14 +23,14 @@ void cargarhora (time &t)
 {
     do
     {
-        printf("\nIngrese SOLO hora: ");
+        printf("+ Hora: ");
         scanf("%d", &t.horas);
     }
     while (chequeohoras(t)==FALSE);
 
     do
     {
-        printf("Ingrese SOLO minutos: ");
+        printf("+ Minutos: ");
         scanf("%d", &t.minutos);
     }
     while (chequeomin(t)==FALSE);

@@ -4,13 +4,13 @@
 
 void scanDate (date &d)
 {
-    printf("Ingrese el dia: ");
+    printf("+ Dia: ");
     scanf("%d", &d.dia);
 
-    printf("Ingrese el mes: ");
+    printf("+ Mes: ");
     scanf("%d", &d.mes);
 
-    printf("Ingrese el anio: ");
+    printf("+ Anio: ");
     scanf("%d", &d.anio);
 }
 

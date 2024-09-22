@@ -46,6 +46,7 @@ void procesarConsulta(muestra muestraComunal, int opcionConsultas)
             }
             else
             {
+                system("cls");
                 printf("NO EXISTE BAILARIN PARA LA CEDULA INGRESADA. INTENTE NUEVAMENTE.\n");
             }
             system("pause");
@@ -138,8 +139,8 @@ int main()
         {
         case 1:
             // Registrar ingreso de un bailar n
-             system("cls");
-             printf(":: INGRESO DE BAILARIN ::\n\n");
+            system("cls");
+            printf(":: INGRESO DE BAILARIN ::\n\n");
             //validar que la muestra no este llena, si esta llena emitir mensaje de error
             if (estaLleno(muestraComunal)==FALSE)
             {
@@ -186,7 +187,7 @@ int main()
         case 3:
             // Registrar nuevo premio para un bailarin infantil
             printf(":: REGISTRAR NUEVO PREMIO PARA UN BAILARIN INFANTIL ::");
-             system("cls");
+            system("cls");
             printf("Ingrese la cedula del bailarin a premiar: ");
             scanf("%ld", &ci);
             if(existeBailarin(muestraComunal, ci) == TRUE)
@@ -214,7 +215,16 @@ int main()
             break;
         case 4:
             // Menu de listados y consultas
-            procesarConsulta(muestraComunal, opcionConsultas);
+            if(estaVacio(muestraComunal) == FALSE)
+            {
+                procesarConsulta(muestraComunal, opcionConsultas);
+            }
+            else
+            {
+                system("cls");
+                printf("LA LISTA ESTA VACIA. NO SE PERMITE INGRESAR AL MENU DE CONSULTAS. \n\n");
+                system("pause");
+            }
             break;
         case 5:
             // Salir del programa
